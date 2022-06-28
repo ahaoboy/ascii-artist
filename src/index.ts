@@ -1,4 +1,7 @@
 import { toAscii, toNumber } from "./share";
+
+export * from "./share";
+
 export const encode = (
   pixels: ArrayLike<number>,
   width: number,
