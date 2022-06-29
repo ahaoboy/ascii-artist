@@ -1,0 +1,26 @@
+{
+  "name": "ascii-artist-cli",
+  "version": "1.0.6",
+  "description": "ascii artist cli",
+  "main": "index.js",
+  "bin": {
+    "ascii-artist": "./dist/index.js"
+  },
+  "keywords": ["ascii", "art", "artist", "image"],
+  "author": "ahaoboy",
+  "license": "ISC",
+  "scripts": {
+    "build": "esbuild ./src/index.js --bundle --outfile=./dist/index.js --platform=node --external:sharp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "adaptive-threshold-wasm": "^0.0.1",
+    "libwebp-wasm": "^0.1.3",
+    "tsx": "^3.6.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "sharp": "^0.30.7"
+  }
+}

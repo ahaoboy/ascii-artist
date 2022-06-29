@@ -1,6 +1,6 @@
 {
   "name": "ascii-artist",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "ascii artist",
   "type": "module",
   "main": "./dist/index.js",
@@ -14,13 +14,18 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsx ./test/t.ts"
   },
   "keywords": ["ascii", "art", "artist", "image"],
   "author": "ahaoboy",
   "license": "ISC",
   "npmName": "ascii-artist",
   "devDependencies": {
+    "@types/node": "^18.0.0",
+    "adaptive-threshold-wasm": "^0.0.1",
+    "libwebp-wasm": "^0.1.3",
+    "sharp": "^0.30.7",
+    "tsx": "^3.6.0",
     "typescript": "^4.7.4"
   }
 }
