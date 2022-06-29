@@ -10,7 +10,7 @@
   "author": "ahaoboy",
   "license": "ISC",
   "scripts": {
-    "build": "esbuild ./src/index.js --bundle --outfile=./dist/index.js --platform=node --external:sharp",
+    "build": "esbuild ./src/index.ts --bundle --outfile=./dist/index.js --platform=node --external:sharp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
