@@ -1,6 +1,6 @@
 {
   "name": "ascii-artist",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "ascii artist",
   "type": "module",
   "main": "./dist/index.js",
