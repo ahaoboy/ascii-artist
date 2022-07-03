@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: overlay;
+  flex-direction: column;
+  .config {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .slider {
+      width: 350px;
+    }
+
+    .label {
+      margin: auto;
+      width: 120px;
+      text-align: center;
+    }
+  }
+
+  .view {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .image {
+      width: 45%;
+      height: 100%;
+      display: flex;
+      // border: 1px solid black;
+      img {
+        object-fit: contain;
+        max-width: 100%;
+      }
+    }
+    .text {
+      width: 45%;
+      height: 100%;
+      display: flex;
+      // border: 1px solid black;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+pre {
+  display: block;
+  white-space: pre;
+  padding: 0px;
+  margin: 0px;
+  background: white;
+  color: black;
+  font-family: "Cascadia Mono";
+}
+#hide-pre {
+  opacity: 0;
+  z-index: -99;
+  // max-width: 100vw;
+  // max-height: 100vh;
+  // overflow: overlay;
+  position: absolute;
+}
+
+.hide-wrap {
+  opacity: 0;
+  z-index: -99;
+  position: absolute;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 1px;
+  height: 1px;
+  overflow: overlay;
+}

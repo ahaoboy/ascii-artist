@@ -10,6 +10,8 @@ npm i ascii-artist
 
 
 ## demo
+[ascii artist web](https://ascii-artist.vercel.app)
+[ascii artist cli](https://github.com/ahaoboy/ascii-artist/tree/main/cli)
 <div align="center">
 	<a href="https://github.com/ahaoboy/ascii-artist">
 		<img src="art.svg">
